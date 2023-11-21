@@ -1,0 +1,57 @@
+html {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(160deg, #2e3045, #3b394c);
+  color: white;
+  z-index: -1;
+}
+
+html:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 40%;
+  background-image: url("/src/assets/images/Big Voronoi.png");
+  z-index: -1;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#root {
+  width: 90%;
+  max-width: 1264px;
+  height: 100%;
+}
+
+hr {
+  color: #4c5077;
+}
+
+@media screen and (max-width: 1920px) {
+  html {
+    background-size: 2400px 1800px;
+  }
+
+  html:before {
+    background-size: 2400px 1800px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    background-size: 576px 1400px;
+  }
+
+  html:before {
+    background-size: 2400px 1400px;
+  }
+}

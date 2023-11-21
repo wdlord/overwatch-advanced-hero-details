@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
+
+.navigation-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-row {
+  display: flex;
+  align-items: center;
+  font-family: "bignoodletoo", sans-serif;
+  font-size: 24px;
+}
+
+.hero-row h2 {
+  margin: 0 24px;
+  opacity: 0.7;
+}
+
+.hero-row h2:hover {
+  transform: scale(1.03);
+}
+
+.hero-row h2.active {
+  opacity: 1;
+  border-bottom: 2px white solid;
+}
+
+.navigation-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+
+.navigation-button h5 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 24px;
+  border: solid white 1px;
+  border-radius: 4px;
+  padding: 0.2em 1.5ch;
+  margin: 0;
+  margin-right: 16px;
+}
+
+.navigation-button h6 {
+  font-family: "bignoodletoo", sans-serif;
+  font-size: 32px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1920px) {
+  .navigation-area {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navigation-button {
+    display: none;
+  }
+
+  .hero-row {
+    width: 100%;
+    justify-content: space-around;
+    font-size: 22px;
+  }
+
+  .hero-row h2 {
+    margin: 0;
+  }
+}

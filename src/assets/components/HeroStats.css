@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400&display=swap");
+
+.hero-stats {
+  display: flex;
+  margin: 40px 0;
+  width: 100%;
+}
+
+.hero-stats h1 {
+  font-family: "bignoodletoo", sans-serif;
+  font-size: 96px;
+  margin: 0;
+  margin-left: 12px;
+  color: #eeeeee;
+}
+
+.headshot {
+  background-image: linear-gradient(
+    rgba(242, 238, 255, 0.45),
+    rgba(126, 138, 171, 0.45)
+  );
+  width: 142px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(4, 10, 44, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-shape {
+  width: 122px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: #2e3045;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-bg {
+  width: 112px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.headshot img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+/* right side stuff */
+
+.name-and-role {
+  display: flex;
+}
+
+.role {
+  width: 40px;
+  aspect-ratio: 1 / 1;
+  background-color: transparent;
+  border: solid 2px white;
+  border-radius: 50%;
+  margin-left: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.role img {
+  height: 20px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(9deg) brightness(102%)
+    contrast(105%);
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+/* hp stuff */
+
+.hit-points {
+  display: flex;
+  align-items: center;
+  margin-left: -16px;
+  margin-top: -8px;
+  min-width: 0;
+}
+
+.hp-blocks {
+  display: flex;
+  margin-right: 16px;
+  min-width: 0;
+}
+
+.hp {
+  height: 32px;
+  width: 16px;
+  min-width: 0;
+  max-height: 32px;
+  max-width: 16px;
+  border-radius: 4px;
+  background-color: #eeeeee;
+  margin: 0 2px;
+  box-shadow: -3px 4px 4px rgba(4, 10, 44, 0.25);
+}
+
+.armor {
+  height: 32px;
+  width: 16px;
+  min-width: 0;
+  border-radius: 4px;
+  background-color: #e6b71d;
+  margin: 0 2px;
+  box-shadow: -3px 4px 4px rgba(4, 10, 44, 0.25);
+}
+
+.hit-points h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* media queries */
+@media screen and (max-width: 812px) {
+  .hp {
+    border-radius: 3px;
+  }
+
+  .armor {
+    border-radius: 3px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-stats h1 {
+    font-size: 56px;
+    margin-left: 8px;
+  }
+
+  .headshot {
+    width: 112px;
+  }
+
+  .dark-shape {
+    width: 98px;
+  }
+
+  .white-bg {
+    width: 90px;
+  }
+
+  .role {
+    width: 32px;
+    margin-left: 20px;
+  }
+
+  .hp-blocks {
+    margin-right: 12px;
+  }
+}
