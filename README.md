@@ -1,8 +1,5 @@
-# React + Vite
+# Overwatch Advanced Hero Details Concept Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a prototype I designed and created for an advanced hero details page in Overwatch 2 that shows more specific ability stats, like damage and cooldowns. Made with Figma, Vite, and React.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Check it out here!]([https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md](https://overwatch-advanced-hero-details.wdlord.repl.co/)https://overwatch-advanced-hero-details.wdlord.repl.co/)
